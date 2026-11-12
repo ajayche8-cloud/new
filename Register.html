@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIMB FEST - Registration</title>
+</head>
+
+
+        <header>
+            <img
+                src="https://www.iimb.ac.in/sites/default/files/inline-images/IIMB-Logo.png"
+                alt="IIMB-Logo"
+                height="40px"
+            />
+            <h1>IIMB FEST - 2026</h1>
+            <p>
+                Welcome to the best fest in Bangalore. Hope you enjoy your time
+                here
+            </p>
+            <nav>
+                <a href="./index.html">Click to go back to HomePage</a>                
+            </nav>
+
+
+
+        </header>
+
+<body>
+            <section>
+        <hr>
+        <h2>Register for the Fest</h2>
+        <form action="/register">
+            <label for="name">Enter your name</label>
+            <input type="text" name="name" id="name" required minlength="2" maxlength="12">
+            <br><br>
+            <label for="email">Enter your IIMB email</label>
+            <input type="email" name="email" id="email"> 
+            <br><br>
+            <label for="T_shirt_size">Select T shirt size</label>
+            <select name="T_shirt_size" id="T_shirt_size">
+                <option value="0">Please select option</option>
+                <option value="38">38</option>
+                <option value="40">40</option>
+                <option value="42">42</option>
+                <option value="44">44</option>
+            </select>
+            <br><br>
+
+            <label for="Alumni">Alumni</label>
+            <input type="radio" name="Attendee type" id="Alumni" value="Almuni">
+            <br><br>
+            <label for="Student">Student</label>
+            <input type="radio" name="Attendee type" id="Student" value="Student">
+            <br><br>
+
+            <label for="checkbox">Do you agree to all conditions</label>
+            <input type="checkbox" name="Terms and conditions"   id="checkbox1" required> 
+            <br><br>
+            <button type="submit">Register</button>
+
+        </form>
+
+
+        </section>
+</body>
+</html>
